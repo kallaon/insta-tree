@@ -1,0 +1,27 @@
+{
+  "profilePicture": "profile_picture.png",
+  "backgroundImage": "background.jpg",
+  "channelName": "Gula",
+  "channelDescription": "Tu nájdeš všetky potrebné odkazy na to aby si mohol Guliť!",
+  "links": [
+    {
+      "icon": "fa-solid fa-bicycle",
+      "text": "...čoskoro",
+      "url": "#"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/@GulaBiker"
+    },
+    {
+      "icon": "fa-instagram",
+      "url": "https://www.instagram.com/gula_biker/"
+    },
+    {
+      "icon": "fa-strava",
+      "url": "https://www.strava.com/athletes/17938138"
+    }
+  ]
+}

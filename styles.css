@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0d1117; /* GitHub Dark Mode Background */
+  color: #c9d1d9; /* Light text for dark background */
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  background-color: #161b22; /* Slightly lighter background for container */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-section img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #30363d; /* Border similar to GitHub’s avatar border */
+}
+
+h1 {
+  font-size: 24px;
+  color: #c9d1d9;
+}
+
+p {
+  font-size: 14px;
+  color: #8b949e; /* Lighter gray for the description */
+  margin-bottom: 20px;
+}
+
+.links-section .link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #238636; /* GitHub's green for buttons */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  font-size: 18px;
+}
+
+.links-section .link-button:hover {
+  background-color: #2ea043; /* Slightly lighter green on hover */
+}
+
+.link-button i {
+  margin-right: 10px;
+}
+
+.social-section {
+  margin-top: 20px;
+}
+
+.social-section a {
+  color: #8b949e; /* GitHub's muted text color for social icons */
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-section a:hover {
+  color: #c9d1d9; /* Light color on hover */
+}
